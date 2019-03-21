@@ -1,0 +1,16 @@
+{
+  "name": "typescript-algorithms",
+  "version": "1.0.0",
+  "description": "an repo for typescript and algorithms playground",
+  "main": "n",
+  "repository": {
+    "url": "git@github.com:Hellowor1d/typescript-algorithms.git",
+    "type": "git"
+  },
+  "author": "hellowor1d <1034597776@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  }
+}
