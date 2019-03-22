@@ -7,6 +7,7 @@
         {
             "type": "node",
             "request": "launch",
+            //不产生 js 、map 文件 ，直接通过 ts-node 调试 ts
             "name": "ts-node debug current ts",
             "runtimeArgs": [
                 "-r",
@@ -20,9 +21,11 @@
         {
             "type": "node",
             "request": "launch",
+            //经过编译产生 js 进行调试、通过 map 文件映射调试效果到 ts
             "name": "js map debug current ts",
             "program": "${workspaceFolder}/${relativeFile}",
-            "preLaunchTask": "tsc: watch - tsconfig.json",//开启调试前，监听文件变化，实时编译，使调试到的 js map 为最新的 ts 代码
+            //开启调试前，监听文件变化，实时编译，使调试到的 js map 对应最新的 ts 代码
+            "preLaunchTask": "tsc: watch - tsconfig.json",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]
