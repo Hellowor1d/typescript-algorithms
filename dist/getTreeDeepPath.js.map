@@ -1,0 +1,1 @@
+{"version":3,"file":"getTreeDeepPath.js","sourceRoot":"","sources":["../src/getTreeDeepPath.ts"],"names":[],"mappings":";AAIA,OAAO;AACP,SAAS,eAAe,CAAC,IAAe,EAAC,MAAiB;IACtD,KAAI,IAAI,CAAC,GAAC,CAAC,EAAE,GAAG,GAAC,IAAI,CAAC,MAAM,EAAE,CAAC,GAAC,GAAG,EAAE,CAAC,EAAE,EAAC;QACrC,IAAG,IAAI,CAAC,CAAC,CAAC,CAAC,QAAQ,EAAC;SAEnB;KACJ;AAEL,CAAC"}
