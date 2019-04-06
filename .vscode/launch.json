@@ -27,7 +27,7 @@
             //开启调试前，监听文件变化，实时编译，使调试到的 js map 对应最新的 ts 代码
             "preLaunchTask": "tsc: watch - tsconfig.json",
             "outFiles": [
-                "${workspaceFolder}/*.js"
+                "${workspaceFolder}/**/*.js"
             ]
         }
     ]
