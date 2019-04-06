@@ -29,4 +29,10 @@ let man3 = Role[4];
 console.log(Role); //{0: "teacher", 1: "student", 4: "monitor", teacher: 0, student: 1, monitor: 4}
 console.log(man1); // student
 console.log(man3); // monitor
+//any  它允许你在编译时可选择地包含或移除类型检查
+let x, y;
+x = 1;
+x = 'string';
+x = [1, 2, 'string', mixTypeArr];
+y = [1, 'string', mixTypeArr];
 //# sourceMappingURL=基础类型.js.map
