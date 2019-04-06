@@ -7,4 +7,8 @@ let bool = false;
 let str = 'this is string';
 //number
 let num = 123;
+//数组 形式一
+let arr1 = [1, 2, 3];
+//数组 形式二
+let arr2 = [1, 2, 3];
 //# sourceMappingURL=基础类型.js.map

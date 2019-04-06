@@ -9,3 +9,8 @@ let str:string = 'this is string'
 
 //number
 let num:number = 123
+
+//数组 形式一
+let arr1:number[] = [1,2,3]
+//数组 形式二
+let arr2:Array<number> = [1,2,3]
