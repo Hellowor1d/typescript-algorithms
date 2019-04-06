@@ -41,4 +41,8 @@ let useless;
 // useless = undefined || null 
 // TypeScript里，undefined和null两者各自有自己的类型分别叫做undefined和null
 // 默认情况下null和undefined是所有类型的子类型。 就是说你可以把 null和undefined赋值给number类型的变量。
+//never类型是任何类型的子类型，也可以赋值给任何类型；然而，没有类型是never的子类型或可以赋值给never类型（除了never本身之外）。 即使 any也不可以赋值给never
+let nev;
+//所以，never 基本不能被赋值，只代表一个永远不可达到的位置
+// 返回never的函数必须存在无法达到的终点
 //# sourceMappingURL=基础类型.js.map
