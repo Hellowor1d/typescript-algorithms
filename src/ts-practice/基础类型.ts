@@ -3,3 +3,6 @@
 
 //基础类型
 let bool:boolean = false
+
+//字符串
+let str:string = 'this is string'
