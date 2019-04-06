@@ -42,3 +42,6 @@ y=[1,'string',mixTypeArr]
 let useless:void;
 // Type 'null' is not assignable to type 'void'
 // useless = undefined || null 
+
+// TypeScript里，undefined和null两者各自有自己的类型分别叫做undefined和null
+// 默认情况下null和undefined是所有类型的子类型。 就是说你可以把 null和undefined赋值给number类型的变量。
