@@ -37,3 +37,8 @@ x = 1;
 x='string'
 x=[1,2,'string',mixTypeArr]
 y=[1,'string',mixTypeArr]
+
+//Void 声明一个void类型的变量没有什么大用，因为你只能为它赋予undefined和null
+let useless:void;
+// Type 'null' is not assignable to type 'void'
+// useless = undefined || null 
