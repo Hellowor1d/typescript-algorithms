@@ -50,3 +50,13 @@ let useless:void;
 let nev: never
 //所以，never 基本不能被赋值，只代表一个永远不可达到的位置
 // 返回never的函数必须存在无法达到的终点
+
+//object 
+
+//类型断言 ：把 any 或者联合类型，指定为一种确定的类型
+//  Type assertions 两种写法
+let someValue: any = "this is a string";
+// 形式一
+let strLength1: number = (<string>someValue).length;
+// 形式二  TS 中使用 JSX 时，只有 as 语法断言是被允许
+let strLength2: number = (someValue as string).length;
